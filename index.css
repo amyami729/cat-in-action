@@ -1,0 +1,49 @@
+#box{
+  max-width: 320px;
+  height: auto;
+  margin: 50px auto;
+  position: relative;
+}
+#box .bigImg{
+  width: 320px;
+  height: 568px;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+@media screen and (max-width: 992px) {
+  #box{
+    width: 100%;
+  }
+  #box .bigImg{
+    width: 100%;
+  }
+}
+#box .bt{
+  position: absolute;
+  text-decoration: none;
+}
+#box .button1{
+  left: 5px;
+  bottom: 135px;
+}
+#box .button2{
+  left: 5px;
+  bottom: 65px;
+}
+#box .button3{
+  left: 5px;
+  bottom: 5px;
+}
+#box .button4{
+  right: 5px;
+  bottom: 135px;
+}
+#box .button5{
+  right: 5px;
+  bottom: 65px;
+}
+#box .button6{
+  right: 5px;
+  bottom: 5px;
+}
