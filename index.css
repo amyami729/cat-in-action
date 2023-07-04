@@ -24,6 +24,11 @@
   text-decoration: none;
   border-radius: 20px;
 }
+#box .bt img{
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
 #box .button1{
   left: 5px;
   bottom: 80px;
