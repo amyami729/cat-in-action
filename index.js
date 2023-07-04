@@ -8,7 +8,7 @@ function $(str) {
 
 $(function () {
   const obtainImg = $('#box').getElementsByTagName('img')[0];
-  const obtainButtons = $('#box').getElementsByTagName('a');
+  const obtainButtons = $('#box').getElementsByTagName('button');
   let timer = null;
   let page = 0;
   let currentBt = null;

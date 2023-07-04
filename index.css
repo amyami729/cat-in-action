@@ -22,10 +22,11 @@
 #box .bt{
   position: absolute;
   text-decoration: none;
+  border-radius: 20px;
 }
 #box .button1{
   left: 5px;
-  bottom: 65px;
+  bottom: 80px;
 }
 #box .button2{
   left: 5px;
@@ -33,7 +34,7 @@
 }
 #box .button3{
   right: 5px;
-  bottom: 65px;
+  bottom: 80px;
 }
 #box .button4{
   right: 5px;
